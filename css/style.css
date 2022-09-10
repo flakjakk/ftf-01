@@ -32,14 +32,13 @@
     font-weight: lighter;
 }
 
-/* .main-nav li {
+.main-nav li {
     padding: 0 3%;
-} */
+}
 
 .flexbox-container {
     display: flex;
-    min-height: 80px;
-    flex-wrap: wrap;
+    height: 70px;
     background-color: #232f38;
     justify-content: space-between;
     align-items: center;
@@ -47,31 +46,25 @@
 
 /* flexbox item formatting */
 .flexbox-item {
-    /* width: 100px; */
-    height: 100%;
-    margin: 10px;
+    height: 90%;
+    margin: 8px;
     /* border: 3px solid #4c87b4; */
 }
 
 /* logo container */
-.flexbox-item-1 {
-    /* min-height: 60px; */
-    background-color: #232f38;
-    /* flex-shrink: 0; */
+.logo {
+    display: flex;
+    object-fit: contain;
 }
 
-/* .logo-image {
+/* img {
     width: 100%;
-    object-fit: fill;
-}
- */
+} */
 
 /* links container */
 .flexbox-item-2 {
-    /* min-height: 60px; */
     background-color: #232f38;
-    /* align-items: flex-end; */
-    flex-grow: 0.5;
+    flex-grow: 0.3;
 }
 
 .page-content {
